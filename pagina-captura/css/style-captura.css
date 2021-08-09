@@ -1,0 +1,124 @@
+html {
+  height: 1300px;
+}
+
+body {
+  background-image: url(/img/mockup-preco-certo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 600px;
+  margin-top: 100px;
+}
+.headlines {
+  width: 420px;
+  margin: 10px auto;
+}
+.headline {
+  width: 400px;
+  font-family: "Nexa Bold", Arial, Helvetica, sans-serif, Georgia,
+    "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: whitesmoke;
+  margin: 0px;
+}
+.subheadline {
+  font-family: "Nexa Light", Arial, Helvetica, sans-serif, Georgia,
+    "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin-top: 5px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.chamada {
+  font-family: "Nexa Light", Arial, Helvetica, sans-serif, Georgia,
+    "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.headlines strong {
+  color: #bf1f2f;
+}
+.chamada strong {
+  font-family: "Nexa Bold";
+}
+.formulario {
+  width: 420px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 400px;
+  height: 50px;
+  margin: 15px auto;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  padding-left: 10px;
+}
+button {
+  height: 55px;
+  border-radius: 5px;
+  border: none;
+  background: #bf1f2f;
+  font-size: 18px;
+  font-family: "Nexa Bold";
+  color: whitesmoke;
+  padding: 10px;
+  cursor: pointer;
+}
+button:hover {
+  text-decoration: underline;
+}
+.comentario {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.comentario .subheadline {
+  font-size: 24px;
+}
+.comentario p {
+  font-family: "Nexa Light";
+  color: whitesmoke;
+}
+.mockup {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    height: auto;
+  }
+  body {
+    width: 500px;
+  }
+  .container {
+    width: 400px;
+    margin: 100px auto 0px;
+  }
+  .headlines {
+  }
+  .comentario {
+    width: 400px;
+    margin: 40px auto;
+  }
+  .comentario p {
+    font-size: 18px;
+  }
+
+  .mockup {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+    height: auto;
+    border: solid 4px #bf1f2f;
+  }
+}

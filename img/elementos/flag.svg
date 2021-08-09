@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="58.072" viewBox="0 0 160 58.072">
+  <g id="flag" transform="translate(-801 -2389)">
+    <g id="Grupo_18" data-name="Grupo 18" transform="translate(478 -636.913)">
+      <path id="Caminho_6" data-name="Caminho 6" d="M0,0H159V30.087H0L20.809,14.656Z" transform="translate(323 3025.913)" fill="#32ad40"/>
+      <path id="Caminho_5" data-name="Caminho 5" d="M26.159,0V28.486H0Z" transform="translate(482 3083.985) rotate(180)" fill="#15621d"/>
+    </g>
+    <g id="Grupo_19" data-name="Grupo 19" transform="translate(352 -271)">
+      <text id="RECOMENDADO" transform="translate(472 2668)" fill="#fff" font-size="16" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="12">RECOMENDADO</tspan></text>
+    </g>
+  </g>
+</svg>
